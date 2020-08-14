@@ -1,0 +1,12 @@
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.vbprojAssemblyReference.cache
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.Form1.resources
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.Resources.resources
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.vbproj.GenerateResource.cache
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.vbproj.CoreCompileInputs.cache
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\bin\Debug\ProvaTecnica.exe.config
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\bin\Debug\ProvaTecnica.exe
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\bin\Debug\ProvaTecnica.pdb
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\bin\Debug\ProvaTecnica.xml
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.exe
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.xml
+C:\Users\Matheus\source\repos\Estacionamento\ProvaTecnica\obj\Debug\ProvaTecnica.pdb
