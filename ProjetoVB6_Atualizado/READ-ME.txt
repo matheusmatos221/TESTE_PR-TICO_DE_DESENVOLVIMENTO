@@ -1,0 +1,67 @@
+    ''' TESTE PRÁTICO DE DESENVOLVIMENTO
+    ''' Author: Matheus da Cruz Matos
+    ''' Date: 13/08/2020
+    ''' Version: 1.00 (Beta)
+    ''' Email: matheusmatos1996@gmail.com / matheusmatos.221@hotmail.com
+    ''' 
+    ''' 
+    ''' <Premissas_adotadas_e_Observações_Gerais>
+    ''' 
+    ''' O desenvolvimento buscou seguir com exatidão as especificações do cliente/avaliador, porém com a finalidade de auxiliar
+    ''' o mesmo no processo de avaliação, foi acrescentado um botão de início que não estava especificado no teste.
+    ''' 
+    ''' No desenvolvimento, foi considerado como "veículo em fila de entrada" ou "veículo em fila de saída", apenas os veículos que
+    ''' estavam em estado de espera. Veículos que estão no processo de entrada ou saída (nas cancelas) não são exibidos como
+    ''' "veiculos em fila de entrada" ou "Veiculos em fila de saída"
+    ''' 
+    ''' A informação de "em qual cancela de entrada ou saída o veículo passou e suas quantidades" podem ser extraídas
+    ''' de maneira simples através do número de cancelas de entrada e saídas disponíveis, porém teriamos de adotar
+    ''' uma premissa de que NENHUM MOTORISTA ENTRA EM UMA CANCELA FORA DA ORDEM, o que na prática é totalmente inverdade.
+    ''' Acredito que o objetivo do teste não seja exatamente medir com exatidão a realidade, e sim os conhecimentos
+    ''' de quem desenvolve, porém ressalto que a informação não foi exibida porém pode ser obtida através da informação
+    ''' e cancelas disponíveis.
+    ''' 
+    ''' Na interface de usuário, veículos estacionados representam veículos que entraram no estacionamento porém não iniciaram processo de saida
+    ''' Na interface de usuário, veículos no estacionamento (totais) representam veículos que estão no estacionamento independentemente do estado (estacionado ou em processo de saída)
+    ''' 
+    ''' "Com toda certeza é possível aprimorar o programa, estou ciente por exemplo que armazenar variáveis e manipular 
+    ''' variáveis em objetos não é uma prática aceitável em softwares com desenvolvimento profissional e com possível
+    ''' manipulação cooperativa, porém para efeitos práticos de exemplificação da atividades relacionadas ao entendimento
+    ''' do problema, à definição da solução, à implementação, à organização e ao uso das características da linguagem, tal
+    ''' aprimoramento se torna irrelevante."
+    ''' 
+    '''
+    '''Declaração de objetos globais e objetos de thread utilizados
+    '''
+
+O software não possui processamento paralelo ou Threads, portanto foram inseridos botões para testes, porém durante o processo executado a partir do botão não
+foram inseridos comandos de refresh da interface, a aferição ficou comprometida:
+
+Testes que foram executados para aferição de funcionalidade
+
+ACUMULO DE VEÍCULOS EM FILAS
+Veículos Chegando sem Cancelas de Entrada Disponíveis -> Acumulo de veículos na fila de entrada
+Veículos Saindo sem Cancelas de Saída Disponíveis -> Acumulo de veículos na fila de saida
+
+	Solução 1 Aumentar número de cancelas
+	Solução 2 Aumentar velocidade de entrada
+	Solução 3 Aumentar velocidade de manobra de estacionamento (não contemplado no exemplo)
+	
+NÚMERO DE CANCELAS EXCESSIVO
+Ponto positivo: 
+	Veículos nunca param na fila
+Pontos Negativos: 
+	Não ter fila, não significa velocidade na entrada, depende do processo de entrada.
+	Custo de implementação e manutenção elevado para o cliente (para a LINKC significa mais lucro?)
+	Diminuição do espaço útil do estacionamento aumenta o tempo de manobra de estacionamento
+	
+Solução/Ação: Encontrar o valor ideal entre o excesso de cancelas e a necessidade de mais cancelas (preferencialmente trabalhar com folga)
+
+
+Observações: Esse software simula de maneira simples o comportamento de veículos em um local de estacionamento, executei uma pesquisa a respeito
+e pude vislumbrar um software que simularia um modelo real contendo variáveis diferentes como numero de vagas,
+distancia das vagas, sazonalidade e alterações no comportamento, possui valet ou não[...], independentemente do resultado o teste foi super
+bacana de ser executado e me deu uma noção mais aprofundada sobre o business da LINKC, parabéns aos elaboradores do teste! Felizmente ainda tenho muito
+a aprender!
+	
+
